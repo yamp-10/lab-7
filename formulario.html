@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ejemplo</title>
+</head>
+<body>
+    <h1>Formulario de Ejemplo</h1>
+
+    <form action="#" method="post">
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellido: <input type="text" name="apellido"></p>
+        <p>Contraseña: <input type="password" name="clave"></p>
+        <p>Correo electrónico: <input type="email" name="correo"></p>
+        <p>Edad: <input type="number" name="edad"></p>
+        <p>Fecha de nacimiento: <input type="date" name="nacimiento"></p>
+        <p>Hora de cita: <input type="time" name="hora"></p>
+        <p>Color favorito: <input type="color" name="color"></p>
+        <p>Sitio web: <input type="url" name="web"></p>
+        <p>Teléfono: <input type="tel" name="telefono"></p>
+        <p>Archivo: <input type="file" name="archivo"></p>
+
+        <p>Género:</p>
+        <p><input type="radio" name="genero" value="masculino"> Masculino</p>
+        <p><input type="radio" name="genero" value="femenino"> Femenino</p>
+        <p><input type="radio" name="genero" value="otro"> Otro</p>
+
+        <p>Intereses:</p>
+        <p><input type="checkbox" name="musica"> Música</p>
+        <p><input type="checkbox" name="deporte"> Deporte</p>
+        <p><input type="checkbox" name="lectura"> Lectura</p>
+
+        <p>País:
+            <select name="pais">
+                <option value="bolivia">Bolivia</option>
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+            </select>
+        </p>
+
+        <p>Comentarios:</p>
+        <p><textarea name="comentarios" rows="4" cols="49"></textarea></p>
+
+        <p><input type="reset" value="Borrar"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
